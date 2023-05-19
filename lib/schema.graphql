@@ -1,0 +1,11 @@
+interface Node {
+    id: ID!
+}
+
+type Werker implements Node {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    email: String!
+    phone: String!
+}

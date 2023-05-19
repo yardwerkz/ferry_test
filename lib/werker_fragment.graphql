@@ -1,0 +1,11 @@
+fragment NestedFragment on Node {
+    id
+}
+
+fragment WerkerFragment on Werker {
+    ...NestedFragment
+    firstName
+    lastName
+    email
+    phone
+}
