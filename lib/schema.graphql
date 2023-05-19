@@ -9,3 +9,7 @@ type Werker implements Node {
     email: String!
     phone: String!
 }
+
+type Query {
+    node(id: ID!):Node!
+}

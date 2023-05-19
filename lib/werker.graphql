@@ -1,4 +1,4 @@
-# import "./werker_fragment.graphql"
+# import "werker_fragment.graphql"
 
 query WerkerProfile($id: ID!) {
     node(id: $id) {
